@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+p,a,::placeholder{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body-login{
+    background-color: #f0f4f3;
+}
+
+.contenedor-login{
+    width: 50%;
+    margin: auto;
+    position: relative;
+    margin-top: 12.5%;
+    height: 498px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: rgba(0,0,0,.2) 0 3px 8px; 
+}
+
+.panel-izq{
+    width: 46%;
+    float: left;
+    position: absolute;
+    background-color: #f0203f;
+    max-height: 500px;
+    height: 100%;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+.nuevo{
+    width: 100%;
+    float: left;
+}
+
+.registrado{
+    width: 100%;
+    float: left; 
+    display: none;
+}
+
+
+.panel-izq h1{
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 30%;
+}
+
+.panel-izq p{
+    font-size: 14px;
+    padding: 4%;
+}
+
+.panel-izq button{
+    background-color: #f0203f;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5%;
+    border: 1px solid white;
+}
+
+.panel-der{
+    width: 100%;
+    float: left;
+    position: relative;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.login, .crear{
+    width: 46%;
+    float: left;
+    padding: 2%;
+}
+
+.contenedor-input{
+    width: 80%;
+    float: left;
+    background-color: #f4f8f7;
+    margin-bottom: 2%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.contenedor-input input{
+    width: 90%;
+    float: left;
+    height: 40px;
+    border: none;
+    background-color: unset;
+    outline: none;
+}
+
+.contenedor-input-m{
+    background-color:white;
+}
+
+.mensaje-password{
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #9ca09f;
+}
+
+.contenedor-input input::placeholder{
+    color: #9ca09f;
+}
+
+.contenedor-input i{
+    width: 10%;
+    float: left;
+    line-height: 40px;
+    color: #9ca09f;
+}
+
+.panel-der{
+    text-align: center;
+}
+
+.panel-der h1{
+    color: #f0203f;
+    font-family: 'Raleway', sans-serif;
+}
+
+.panel-der button{
+    background-color: #f0203f;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5%;
+}
+
+.redes-cuenta{
+    width: 158px;
+    background-color: coral;
+    margin: auto;
+}
+
+.redes-cuenta a{
+    width: 40px;
+    height: 40px;
+    border: 1px solid #9ca09f;
+    border-radius: 50%;
+    float: left;
+    margin: 5px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.redes-cuenta i{
+    font-size: 15px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.mensaje-cuenta{
+    width: 92%;
+    float: left;
+    margin: 4%;
+    color: #9ca09f;
+}
+
+.mensaje-btn{
+    width: 100%;
+    float: left;
+}
